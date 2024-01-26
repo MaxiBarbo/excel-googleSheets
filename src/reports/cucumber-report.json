@@ -1,0 +1,92 @@
+[
+  {
+    "description": "    Feature Description",
+    "elements": [
+      {
+        "description": "",
+        "id": "visual-testing-en-la-home-page-de-la-tienda;validacion-visual-de-imagenes-de-productos",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Validacion visual de imagenes de productos",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 574432000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "que he iniciado sesion en la url tienda SauceDemo 'https://www.saucedemo.com/'",
+            "match": {
+              "location": "src\\features\\steps_definitions\\steps_login_sauceDemo.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1548438100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "ingreso mi usuario 'standard_user' y contraseña 'secret_sauce'",
+            "match": {
+              "location": "src\\features\\steps_definitions\\steps_login_sauceDemo.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2022906599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "accedo a los datos parametrizados en Excel",
+            "match": {
+              "location": "src\\features\\steps_definitions\\steps_login_sauceDemo.ts:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 35341000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "accedo a los datos parametrizados en google sheets",
+            "match": {
+              "location": "src\\features\\steps_definitions\\steps_login_sauceDemo.ts:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 59339599
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1919312699
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "visual-testing-en-la-home-page-de-la-tienda",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Visual Testing en la Home Page de la Tienda",
+    "tags": [],
+    "uri": "src\\features\\data_sheets.feature"
+  }
+]
