@@ -40,7 +40,6 @@ export class Elements {
     public async excelSheets(){
         let excelData = 'src/templates/dataLogin.xlsx'
         let dataExcel = await accessExcelSheet(excelData)
-
         // console.log(dataExcel)
     }
 
@@ -52,8 +51,8 @@ export class Elements {
         let userName = await accessGoogleSheet(spreadsheetId, apiKey, range, 1, 0)
         let userPass = await accessGoogleSheet(spreadsheetId, apiKey, range, 1, 1)
 
-        console.log(sheetName)
-        console.log(userName)
-        console.log(userPass)
+        console.log('Nombre de la Hoja: ' + sheetName)
+        console.log('Nombre obtenido de la sheet: ' + userName)
+        console.log('Password obtenida de la sheet: ' + userPass)
     }
 }

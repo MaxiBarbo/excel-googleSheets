@@ -1,72 +1,72 @@
 [
   {
-    "description": "    Feature Description",
+    "description": "    como usuario de testing\n    quiero realizar login con las credencilas obtenidas desde un archivo excel, google sheet y parametros gherkin\n    para verificar la funcionalidad de login con diferentes fuentes de datos",
     "elements": [
       {
         "description": "",
-        "id": "visual-testing-en-la-home-page-de-la-tienda;validacion-visual-de-imagenes-de-productos",
+        "id": "login-con-credenciales-desde-fuentes-de-datos;login-mediante-credenciales-obtenidas-desde-diferentes-fuente-de-datos",
         "keyword": "Scenario",
-        "line": 5,
-        "name": "Validacion visual de imagenes de productos",
+        "line": 7,
+        "name": "login mediante credenciales obtenidas desde diferentes fuente de datos",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 574432000
+              "duration": 2103468799
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 6,
+            "line": 8,
             "name": "que he iniciado sesion en la url tienda SauceDemo 'https://www.saucedemo.com/'",
             "match": {
               "location": "src\\features\\steps_definitions\\steps_login_sauceDemo.ts:20"
             },
             "result": {
               "status": "passed",
-              "duration": 1548438100
+              "duration": 1355576600
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 7,
+            "line": 9,
             "name": "ingreso mi usuario 'standard_user' y contraseña 'secret_sauce'",
             "match": {
               "location": "src\\features\\steps_definitions\\steps_login_sauceDemo.ts:24"
             },
             "result": {
               "status": "passed",
-              "duration": 2022906599
+              "duration": 2153284900
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 8,
+            "line": 10,
             "name": "accedo a los datos parametrizados en Excel",
             "match": {
               "location": "src\\features\\steps_definitions\\steps_login_sauceDemo.ts:31"
             },
             "result": {
               "status": "passed",
-              "duration": 35341000
+              "duration": 56448400
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 9,
+            "line": 11,
             "name": "accedo a los datos parametrizados en google sheets",
             "match": {
               "location": "src\\features\\steps_definitions\\steps_login_sauceDemo.ts:35"
             },
             "result": {
               "status": "passed",
-              "duration": 59339599
+              "duration": 82859699
             }
           },
           {
@@ -74,18 +74,27 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1919312699
+              "duration": 1907567700
             }
           }
         ],
-        "tags": [],
+        "tags": [
+          {
+            "name": "@login-01",
+            "line": 6
+          },
+          {
+            "name": "@smokeTest",
+            "line": 6
+          }
+        ],
         "type": "scenario"
       }
     ],
-    "id": "visual-testing-en-la-home-page-de-la-tienda",
+    "id": "login-con-credenciales-desde-fuentes-de-datos",
     "line": 1,
     "keyword": "Feature",
-    "name": "Visual Testing en la Home Page de la Tienda",
+    "name": "login con credenciales desde fuentes de datos",
     "tags": [],
     "uri": "src\\features\\data_sheets.feature"
   }

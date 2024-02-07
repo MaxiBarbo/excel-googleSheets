@@ -12,11 +12,11 @@ async function accessExcelSheet(excelData: string): Promise<void> {
     const sortedPasswords = sortedUserData.map((user: any) => user['Password ']);
     const sortedRoles = sortedUserData.map((user: any) => user.Role);
 
-    console.log(sheetName);
+    // console.log(sheetName);
     console.log(userData);
-    console.log(sortedUserNames[2]);
-    console.log(sortedPasswords[2]);
-    console.log(sortedRoles[2]);
+    // console.log(sortedUserNames[2]);
+    // console.log(sortedPasswords[2]);
+    // console.log(sortedRoles[2]);
     
 }
 
