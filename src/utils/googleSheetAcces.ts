@@ -21,7 +21,7 @@ async function accessGoogleSheet( spreadsheetId: string, apiKey: string, range: 
         });
         });
         // 1er valor ingresado corresponde a las filas y el 2do valor corresponde a las columnas
-        console.log('Valores obtenidos de google sheets:', processedValues);
+        // console.log('Valores obtenidos de google sheets:', processedValues);
         return processedValues[fila]?.[columna] ?? null;
     } catch (error: any) {
         console.error('Error al obtener los datos:', error.message);

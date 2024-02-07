@@ -50,9 +50,25 @@ export class Elements {
         const range = `${sheetName}!A1:J38`;
         let userName = await accessGoogleSheet(spreadsheetId, apiKey, range, 1, 0)
         let userPass = await accessGoogleSheet(spreadsheetId, apiKey, range, 1, 1)
+        // console.log('Nombre de la Hoja: ' + sheetName)
+        // console.log('Nombre obtenido de la sheet: ' + userName)
+        // console.log('Password obtenida de la sheet: ' + userPass)
+    }
 
-        console.log('Nombre de la Hoja: ' + sheetName)
-        console.log('Nombre obtenido de la sheet: ' + userName)
-        console.log('Password obtenida de la sheet: ' + userPass)
+    public async loginSheet(){
+        let sheetName = 'Datos Parametrizados en Login'
+        const spreadsheetId = '1r32jKngM6Jw_gcJPxGlLL5ZANTZZQ5qWdl6VkUtg6ek';
+        const apiKey = 'AIzaSyBeuLvEvy5QXAiJnq-7YGa1TWTqYsBdJlU';
+        const range = `${sheetName}!A1:J38`;
+
+        let id_01 = {
+            id: await accessGoogleSheet(spreadsheetId, apiKey, range, 2, 1) ?? '',
+            email: await accessGoogleSheet(spreadsheetId, apiKey, range, 2, 2) ?? '',
+            password: await accessGoogleSheet(spreadsheetId, apiKey, range, 2, 3) ?? '',
+            status: await accessGoogleSheet(spreadsheetId, apiKey, range, 2, 6) ?? '',
+            resultadoEsperado: await accessGoogleSheet(spreadsheetId, apiKey, range, 2, 5) ?? ''
+        }
+        console.log(sheetName)
+        console.log(id_01)
     }
 }

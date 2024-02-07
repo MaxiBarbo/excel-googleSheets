@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 2103468799
+              "duration": 1247934800
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1355576600
+              "duration": 1101463000
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2153284900
+              "duration": 2012588600
             }
           },
           {
@@ -53,7 +53,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 56448400
+              "duration": 30955100
             }
           },
           {
@@ -66,7 +66,20 @@
             },
             "result": {
               "status": "passed",
-              "duration": 82859699
+              "duration": 66843199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "mostrar hojas google sheet: Test Cases ejecutados - Team: s13-07-n-node-react",
+            "match": {
+              "location": "src\\features\\steps_definitions\\steps_login_sauceDemo.ts:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2456200
             }
           },
           {
@@ -74,7 +87,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1907567700
+              "duration": 1915740300
             }
           }
         ],

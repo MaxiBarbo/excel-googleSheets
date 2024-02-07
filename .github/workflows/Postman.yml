@@ -1,4 +1,4 @@
-name: Api Test
+name: Api Test Postman
 
 on: 
   push:

@@ -37,6 +37,11 @@ Then('accedo a los datos parametrizados en google sheets', async () => {
     
 });
 
+Then('mostrar hojas google sheet: Test Cases ejecutados: Login_001 - Team: s13-07-n-node-react', async () => {
+    elements.loginSheet()
+    
+});
+
 After( async () => {
     await page.waitForTimeout(segundos)
 });
