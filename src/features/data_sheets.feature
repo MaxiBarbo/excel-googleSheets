@@ -9,4 +9,3 @@ Scenario: login mediante credenciales obtenidas desde diferentes fuente de datos
     When ingreso mi usuario 'standard_user' y contraseña 'secret_sauce'
     Then accedo a los datos parametrizados en Excel
     Then accedo a los datos parametrizados en google sheets
-    
