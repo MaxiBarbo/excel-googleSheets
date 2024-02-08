@@ -70,7 +70,7 @@ export class Elements {
     }
     // Funcion para acceder a cualquier numero de fila en una hoja de google sheet contenedora con datos de casos de prueba por 'ID'
     public async datosParametrizadosLogin(){
-        let id_02 = await this.loginSheets(1)
+        let id_02 = await this.loginSheets(2)
         console.log(id_02)
     }
 
