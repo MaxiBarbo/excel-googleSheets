@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1247934800
+              "duration": 1293377100
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1101463000
+              "duration": 2492693899
             }
           },
           {
@@ -36,11 +36,11 @@
             "line": 9,
             "name": "ingreso mi usuario 'standard_user' y contraseña 'secret_sauce'",
             "match": {
-              "location": "src\\features\\steps_definitions\\steps_login_sauceDemo.ts:24"
+              "location": "src\\features\\steps_definitions\\steps_login_sauceDemo.ts:27"
             },
             "result": {
               "status": "passed",
-              "duration": 2012588600
+              "duration": 2012090699
             }
           },
           {
@@ -49,11 +49,11 @@
             "line": 10,
             "name": "accedo a los datos parametrizados en Excel",
             "match": {
-              "location": "src\\features\\steps_definitions\\steps_login_sauceDemo.ts:31"
+              "location": "src\\features\\steps_definitions\\steps_login_sauceDemo.ts:34"
             },
             "result": {
               "status": "passed",
-              "duration": 30955100
+              "duration": 31474599
             }
           },
           {
@@ -62,24 +62,24 @@
             "line": 11,
             "name": "accedo a los datos parametrizados en google sheets",
             "match": {
-              "location": "src\\features\\steps_definitions\\steps_login_sauceDemo.ts:35"
+              "location": "src\\features\\steps_definitions\\steps_login_sauceDemo.ts:38"
             },
             "result": {
               "status": "passed",
-              "duration": 66843199
+              "duration": 51984699
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 12,
-            "name": "mostrar hojas google sheet: Test Cases ejecutados - Team: s13-07-n-node-react",
+            "name": "mostrar hojas google sheet: Test Cases ejecutados: Login_001 - Team: s13-07-n-node-react",
             "match": {
-              "location": "src\\features\\steps_definitions\\steps_login_sauceDemo.ts:40"
+              "location": "src\\features\\steps_definitions\\steps_login_sauceDemo.ts:43"
             },
             "result": {
               "status": "passed",
-              "duration": 2456200
+              "duration": 2825000
             }
           },
           {
@@ -87,7 +87,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1915740300
+              "duration": 1907171700
             }
           }
         ],

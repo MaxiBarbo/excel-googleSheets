@@ -4,7 +4,7 @@
   "description": "GetDataBooks",
   "main": "index.js",
   "scripts": {
-    "test": "cucumber-js test || true",
+    "test": "cucumber-js test",
     "report": "npx ts-node src/helper/report.ts",
     "codegen": "npx playwright codegen https://pigmeo-app.netlify.app/login",
     "codegen:host:pigmeo": "npx playwright codegen http://localhost:3000/auth/login",

@@ -18,6 +18,9 @@ Before( { timeout: 10000 }, async () => {
 });
 
 Given('que he iniciado sesion en la url tienda SauceDemo {string}', async function (URL: string)  {
+    let fecha = await elements.formatDate()
+    let hora = await elements.getDate()
+    console.log(`Fecha de Ejecucion: ${fecha} ${hora}`)
     await page.goto(URL)
 });
 
@@ -38,7 +41,9 @@ Then('accedo a los datos parametrizados en google sheets', async () => {
 });
 
 Then('mostrar hojas google sheet: Test Cases ejecutados: Login_001 - Team: s13-07-n-node-react', async () => {
-    elements.loginSheet()
+    elements.datosParametrizadosLogin()
+    // elements.datosParametrizadosRegistro()
+    // elements.loginSheetsId01()
     
 });
 
